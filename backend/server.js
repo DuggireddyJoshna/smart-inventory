@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000;
 
 // ✅ CORS HERE
 app.use(cors({
-  origin: "https://smart-inventory-for-shop.netlify.app/",
+  origin: "https://smart-inventory-for-shop.netlify.app",
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
