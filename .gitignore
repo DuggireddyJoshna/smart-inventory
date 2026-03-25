@@ -1,0 +1,82 @@
+# =========================
+# Node.js (Backend + Frontend)
+# =========================
+
+# Ignore all node_modules (both frontend & backend)
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+backend/.env
+frontend/.env
+
+# =========================
+# Build / Production Folders
+# =========================
+dist/
+build/
+.out/
+
+# React / Vite specific
+frontend/dist/
+frontend/build/
+
+# =========================
+# Dependency directories
+# =========================
+jspm_packages/
+
+# =========================
+# Cache & Temporary files
+# =========================
+.cache/
+.temp/
+.tmp/
+*.tmp
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Optional: Database files
+# =========================
+*.sqlite
+*.db
+
+# =========================
+# Optional: Coverage reports
+# =========================
+coverage/
+
+# =========================
+# Optional: Misc
+# =========================
+*.tgz
+*.zip
